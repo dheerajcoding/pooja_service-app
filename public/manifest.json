@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Divine Pooja",
+  "name": "Divine Pooja Services",
+  "description": "Experience spiritual bliss with authentic pooja ceremonies at your doorstep",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,16 +11,22 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FF9933",
+  "background_color": "#FFF8DC",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "utilities", "business"],
+  "lang": "en",
+  "dir": "ltr"
 }

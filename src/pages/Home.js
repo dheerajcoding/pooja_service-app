@@ -101,7 +101,7 @@ const Home = () => {
               <Typography variant="h4" sx={{ color: '#FF9933', fontWeight: 'bold' }}>
                 {stats.totalPoojas.toLocaleString()}+
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                 Poojas Performed
               </Typography>
             </Paper>
@@ -112,7 +112,7 @@ const Home = () => {
               <Typography variant="h4" sx={{ color: '#FF9933', fontWeight: 'bold' }}>
                 {stats.happyCustomers.toLocaleString()}+
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                 Happy Customers
               </Typography>
             </Paper>
@@ -123,7 +123,7 @@ const Home = () => {
               <Typography variant="h4" sx={{ color: '#FF9933', fontWeight: 'bold' }}>
                 {stats.experiencedPriests}+
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                 Expert Priests
               </Typography>
             </Paper>
@@ -134,7 +134,7 @@ const Home = () => {
               <Typography variant="h4" sx={{ color: '#FF9933', fontWeight: 'bold' }}>
                 {stats.yearsOfService}+
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                 Years of Service
               </Typography>
             </Paper>
@@ -142,7 +142,7 @@ const Home = () => {
         </Grid>
 
         {/* Special Offers */}
-        <Typography variant="h4" component="h2" gutterBottom sx={{ textAlign: 'center', mb: 4, color: '#FF9933', fontWeight: 'bold' }}>
+        <Typography variant="h4" component="h2" gutterBottom sx={{ textAlign: 'center', mb: 4, color: '#CC6600', fontWeight: 'bold', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
           🔥 Special Offers
         </Typography>
         <Grid container spacing={4} sx={{ mb: 6 }}>
@@ -156,7 +156,7 @@ const Home = () => {
                       {pkg.name}
                     </Typography>
                   </Box>
-                  <Typography variant="body2" sx={{ mb: 2 }}>
+                  <Typography variant="body2" sx={{ mb: 2, color: '#5D4E37' }}>
                     {pkg.description}
                   </Typography>
                   <Box sx={{ mb: 2 }}>
@@ -168,7 +168,7 @@ const Home = () => {
                     <Typography variant="h6" sx={{ color: '#FF9933', fontWeight: 'bold', mr: 2 }}>
                       ₹{pkg.discountedPrice}
                     </Typography>
-                    <Typography variant="body2" sx={{ textDecoration: 'line-through', color: 'text.secondary' }}>
+                    <Typography variant="body2" sx={{ textDecoration: 'line-through', color: '#8B4513' }}>
                       ₹{pkg.originalPrice}
                     </Typography>
                     <Chip label={`Save ₹${pkg.savings}`} color="error" size="small" sx={{ ml: 2 }} />
@@ -190,7 +190,7 @@ const Home = () => {
         </Grid>
 
         {/* Popular Poojas */}
-        <Typography variant="h4" component="h2" gutterBottom sx={{ textAlign: 'center', mb: 4, color: '#FF9933', fontWeight: 'bold' }}>
+        <Typography variant="h4" component="h2" gutterBottom sx={{ textAlign: 'center', mb: 4, color: '#CC6600', fontWeight: 'bold', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
           ⭐ Popular Poojas - Book Now!
         </Typography>
         <Grid container spacing={4} sx={{ mb: 6 }}>
@@ -234,19 +234,19 @@ const Home = () => {
                     <Typography variant="body2" sx={{ mr: 1 }}>
                       {pooja.rating}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                       ({pooja.reviews})
                     </Typography>
                   </Box>
-                  <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+                  <Typography variant="body2" sx={{ color: '#5D4E37', mb: 2 }}>
                     {pooja.description}
                   </Typography>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                    <Typography variant="h6" sx={{ color: '#FFD700', fontWeight: 'bold', mr: 2 }}>
+                    <Typography variant="h6" sx={{ color: '#B8860B', fontWeight: 'bold', mr: 2 }}>
                       ₹{pooja.price}
                     </Typography>
                     {pooja.originalPrice > pooja.price && (
-                      <Typography variant="body2" sx={{ textDecoration: 'line-through', color: 'text.secondary' }}>
+                      <Typography variant="body2" sx={{ textDecoration: 'line-through', color: '#8B4513' }}>
                         ₹{pooja.originalPrice}
                       </Typography>
                     )}
@@ -390,7 +390,7 @@ const Home = () => {
         </Paper>
 
         {/* Testimonials */}
-        <Typography variant="h4" component="h2" gutterBottom sx={{ textAlign: 'center', mb: 4, color: '#FF9933', fontWeight: 'bold' }}>
+        <Typography variant="h4" component="h2" gutterBottom sx={{ textAlign: 'center', mb: 4, color: '#CC6600', fontWeight: 'bold', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
           💬 Happy Devotees Share Their Experience
         </Typography>
         <Grid container spacing={4} sx={{ mb: 6 }}>
@@ -421,19 +421,19 @@ const Home = () => {
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                     <Avatar sx={{ bgcolor: '#FF9933', mr: 2 }}>{testimonial.name[0]}</Avatar>
                     <Box>
-                      <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
+                      <Typography variant="subtitle1" sx={{ fontWeight: 'bold', color: '#1B365D' }}>
                         {testimonial.name}
                       </Typography>
-                      <Typography variant="body2" color="text.secondary">
+                      <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                         {testimonial.location}
                       </Typography>
                     </Box>
                   </Box>
                   <Rating value={testimonial.rating} readOnly size="small" sx={{ mb: 2 }} />
-                  <Typography variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
+                  <Typography variant="body2" sx={{ mb: 2, fontStyle: 'italic', color: '#2C1810', lineHeight: 1.6 }}>
                     "{testimonial.text}"
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" sx={{ color: '#5D4E37' }}>
                     {testimonial.pooja} • {testimonial.date}
                   </Typography>
                 </CardContent>
@@ -455,7 +455,7 @@ const Home = () => {
             position: 'relative',
           }}
         >
-          <Typography variant="h4" gutterBottom sx={{ color: '#FF9933', fontWeight: 'bold', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
+          <Typography variant="h4" gutterBottom sx={{ color: '#CC6600', fontWeight: 'bold', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
             🕉️ Ready to Experience Divine Blessings?
           </Typography>
           <Typography variant="h6" sx={{ mb: 4, color: '#2C1810' }}>

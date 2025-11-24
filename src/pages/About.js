@@ -28,7 +28,7 @@ const About = () => {
     {
       icon: <CheckCircleIcon sx={{ color: '#2b6cb0', fontSize: 40 }} />,
       title: 'Customer Satisfaction',
-      description: 'Over 8,923+ satisfied customers trust us for their spiritual needs.'
+      description: 'Over 892+ satisfied customers trust us for their spiritual needs.'
     }
   ];
 
@@ -44,7 +44,7 @@ const About = () => {
     {
       name: 'Pandit Rajesh Sharma',
       role: 'Chief Priest & Founder',
-      experience: '20+ years',
+      experience: '8+ years',
       specialization: 'Satyanarayan & Family Poojas',
       image: '/images/image15.png',
       languages: ['Sanskrit', 'Hindi', 'English']
@@ -52,7 +52,7 @@ const About = () => {
     {
       name: 'Pandit Vijay Singh',
       role: 'Senior Priest',
-      experience: '18+ years',
+      experience: '10+ years',
       specialization: 'Lakshmi & Wealth Poojas',
       image: '/images/image17.avif',
       languages: ['Hindi', 'Sanskrit', 'English']
@@ -60,7 +60,7 @@ const About = () => {
     {
       name: 'Pandit Sanjay Mishra',
       role: 'Specialist Priest',
-      experience: '16+ years',
+      experience: '7+ years',
       specialization: 'Vishnu & Peace Poojas',
       image: '/images/image16.jpg',
       languages: ['Hindi', 'English', 'Bengali']
@@ -90,29 +90,24 @@ const About = () => {
 
   const timeline = [
     {
-      year: '2013',
+      year: '2024',
       title: 'Foundation',
       description: 'Divine Pooja Services was founded with a vision to bring authentic spiritual services to modern households.'
     },
     {
-      year: '2015',
-      title: 'First Major Temple Partnership',
-      description: 'Established partnerships with renowned temples, expanding our service network.'
+      year: '2024',
+      title: 'Digital Platform Launch',
+      description: 'Launched our online booking system, making spiritual services accessible 24/7 to our community.'
     },
     {
-      year: '2018',
-      title: 'Digital Transformation',
-      description: 'Launched online booking system, making spiritual services accessible 24/7.'
+      year: '2025',
+      title: 'Community Growth',
+      description: 'Expanded to serve 892+ families with a dedicated team of 15+ expert priests.'
     },
     {
-      year: '2020',
-      title: 'Community Expansion',
-      description: 'Expanded to serve 5,000+ families with a team of 50+ expert priests.'
-    },
-    {
-      year: '2023',
+      year: '2025',
       title: 'Excellence Recognition',
-      description: 'Received multiple awards for outstanding service quality and customer satisfaction.'
+      description: 'Received recognition for outstanding service quality and customer satisfaction in our first year.'
     },
     {
       year: '2025',
@@ -167,11 +162,11 @@ const About = () => {
           </Typography>
           <Typography variant="body1" sx={{ color: '#4a5568', lineHeight: 1.8, textAlign: 'center', maxWidth: 900, mx: 'auto' }}>
             Founded with a vision to make spiritual services accessible to everyone, Divine Pooja Services has been
-            serving the community for over 12 years. Our journey began with a simple belief that everyone deserves
+            serving the community for over 1 year. Our journey began with a simple belief that everyone deserves
             to experience the divine blessings through proper Vedic rituals, regardless of their location or schedule.
             <br /><br />
-            Today, we proudly serve over 8,923+ families across the region, conducting more than 12,547+ poojas
-            with unwavering commitment to authenticity and excellence. Our team of 156+ experienced priests brings
+            Today, we proudly serve over 892+ families across the region, conducting more than 1,247+ poojas
+            with unwavering commitment to authenticity and excellence. Our team of 15+ experienced priests brings
             centuries-old wisdom to modern homes, ensuring that every ritual is performed with the same devotion
             and precision as in ancient temples.
           </Typography>
@@ -259,7 +254,7 @@ const About = () => {
               </Typography>
               <Box sx={{ textAlign: 'center', mb: 3 }}>
                 <Typography variant="h3" sx={{ color: '#1a365d', fontWeight: 'bold' }}>
-                  12,547+
+                  1,247+
                 </Typography>
                 <Typography variant="h6" sx={{ color: '#4a5568' }}>
                   Poojas Completed
@@ -267,7 +262,7 @@ const About = () => {
               </Box>
               <Box sx={{ textAlign: 'center', mb: 3 }}>
                 <Typography variant="h3" sx={{ color: '#1a365d', fontWeight: 'bold' }}>
-                  8,923+
+                  892+
                 </Typography>
                 <Typography variant="h6" sx={{ color: '#4a5568' }}>
                   Happy Families
@@ -275,7 +270,7 @@ const About = () => {
               </Box>
               <Box sx={{ textAlign: 'center', mb: 3 }}>
                 <Typography variant="h3" sx={{ color: '#1a365d', fontWeight: 'bold' }}>
-                  156+
+                  15+
                 </Typography>
                 <Typography variant="h6" sx={{ color: '#4a5568' }}>
                   Expert Priests
@@ -283,7 +278,7 @@ const About = () => {
               </Box>
               <Box sx={{ textAlign: 'center' }}>
                 <Typography variant="h3" sx={{ color: '#1a365d', fontWeight: 'bold' }}>
-                  12+
+                  1+
                 </Typography>
                 <Typography variant="h6" sx={{ color: '#4a5568' }}>
                   Years of Service

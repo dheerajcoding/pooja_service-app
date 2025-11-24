@@ -52,7 +52,7 @@ const Footer = () => {
             </Typography>
             <Typography variant="body2" sx={{ mb: 2, lineHeight: 1.6, color: '#FFE4B5' }}>
               Bringing ancient spiritual traditions to your doorstep with devotion, authenticity,
-              and excellence. Serving over 8,923+ families for 12+ years.
+              and excellence. Serving over 892+ families for 1+ years.
             </Typography>
             <Box sx={{ display: 'flex', gap: 1 }}>
               {socialLinks.map((social, index) => (
@@ -123,7 +123,7 @@ const Footer = () => {
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
               <PhoneIcon sx={{ mr: 1, fontSize: 18, color: '#FFD700' }} />
-              <Typography variant="body2" sx={{ color: '#FFE4B5' }}>+91 98765 43210</Typography>
+              <Typography variant="body2" sx={{ color: '#FFE4B5' }}>+91 9*****3210</Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
               <EmailIcon sx={{ mr: 1, fontSize: 18, color: '#FFD700' }} />

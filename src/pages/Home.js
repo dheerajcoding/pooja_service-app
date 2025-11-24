@@ -459,7 +459,7 @@ const Home = () => {
             🕉️ Ready to Experience Divine Blessings?
           </Typography>
           <Typography variant="h6" sx={{ mb: 4, color: '#2C1810' }}>
-            Join 8,923+ satisfied devotees who have found peace and prosperity through our sacred services
+            Join 892+ satisfied devotees who have found peace and prosperity through our sacred services
           </Typography>
           <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap', mb: 3 }}>
             <Chip

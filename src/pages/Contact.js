@@ -32,13 +32,13 @@ const Contact = () => {
     {
       icon: <PhoneIcon sx={{ color: '#FF9933', fontSize: 30 }} />,
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 87654 32109'],
+      details: ['+91 98******10', '+91 8********9'],
       subtitle: 'Mon-Sun: 6:00 AM - 9:00 PM'
     },
     {
       icon: <WhatsAppIcon sx={{ color: '#25D366', fontSize: 30 }} />,
       title: 'WhatsApp',
-      details: ['+91 98765 43210'],
+      details: ['+91 98******10'],
       subtitle: 'Quick responses within 30 minutes'
     },
     {
@@ -189,7 +189,7 @@ const Contact = () => {
                   <TextField
                     fullWidth
                     label="Phone Number"
-                    name="phone"
+                    name="pho"
                     value={formData.phone}
                     onChange={handleChange}
                     required
